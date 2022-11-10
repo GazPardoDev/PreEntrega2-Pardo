@@ -1,0 +1,26 @@
+footer {
+    text-align: center;
+    height: 300px;
+    padding: 10px;
+    font-size: $titulo-medio;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background-image: linear-gradient(white, $color-beige-primario);
+    color: $color-azul-terciario;
+    margin-top: 30px;
+}
+
+.logofooter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 340px;
+}
+
+@media (max-width: 600px){
+    .logofooter {
+        width: 250px
+    }
+}

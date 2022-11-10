@@ -1,0 +1,38 @@
+nav {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: $color-beige-primario;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    
+    li {
+        float: left;;
+    }
+    
+    a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background-color: $color-beige-secundario;
+    }
+
+    .active {
+        background-color: $color-azul-terciario;
+    }
+}    
+
+header {
+    display: flex;
+    justify-content:space-around;
+    background-color: $color-beige-primario;
+}
