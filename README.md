@@ -11,7 +11,7 @@ Actualización:
 - En todas las páginas se mejoró el FOOTER, ahora tiene degradé de fondo. mejor legibilidad y el logo destacado (también en responsive).
 
 - Sass: se instaló el sistema y se generó Package:Json configurado para tomar Scss/Styles.cscc y llevarlo a Css/Style.css
-- Se aplicó Nesting, Import y Variables (desde _variables.scss).
+- Se aplicó Nesting (Ejemplo: NavBar), Import y Variables (desde _variables.scss) en FOOTER y móduloes de texto.
 - Se aplicó "import" para cada file independiente generado en la carpeta SCSS.
 - Se trabajó cada file para import, de manera independiente.
 - El archivo de hoja de estilo STYLE.CSS original (antes de aplicar sass) quedó como referencia en la carpeta ASSETS (ya no está vinculado).
