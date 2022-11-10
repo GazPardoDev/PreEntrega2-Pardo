@@ -192,6 +192,12 @@ footer {
     margin-bottom: 20px;
 }
 
+@media (max-width: 600px){
+    .banner {
+        display:none;
+    }
+}
+
 .sliderservicios {
     height: 50vh;
     padding: 50px;
