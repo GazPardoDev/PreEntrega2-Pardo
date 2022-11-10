@@ -161,10 +161,12 @@ li a:hover {
 
 footer {
     text-align: center;
-    height: 260px;
+    height: 300px;
     padding: 10px;
-    background-color: #9d7c5d;
-    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background-image: linear-gradient(white, #9d7c5d);
+    color: #2a3b80;
     margin-top: 30px;
 }
 
@@ -174,7 +176,13 @@ footer {
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 10px;
-    width: 15%;
+    width: 340px;
+}
+
+@media (max-width: 600px){
+    .logofooter {
+        width: 250px
+    }
 }
 
 .banner {
@@ -190,6 +198,30 @@ footer {
     margin: auto;
     background-image: url("imagenes/Cafayate002_Servicios.jpg");
 }
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 25% ;
+    gap: 5px;
+    /* background-color: #2196F3; */
+    padding: 5px;
+}
+
+.grid-container > div {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: left;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+	.grid-container {
+            grid-template-columns: 100%;
+            padding: 5px 20px 5px 10px;
+            width: 100% }
+}
+
 
 .titulos {
     font-size: 24px;
@@ -321,6 +353,14 @@ textarea {
     text-align: center;
     margin: auto;
 }
+
+@media (max-width: 600px){
+    .faq{
+        width: 90%;
+        font-size: 16px;
+    }
+}
+
 
 hr {
     border-top: 1px solid #d6b89c;
