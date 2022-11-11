@@ -14,6 +14,7 @@ Actualización:
 - Se aplicó Nesting (Ejemplo: NavBar), Import y Variables (desde _variables.scss) en FOOTER y móduloes de texto.
 - Se aplicó "import" para cada file independiente generado en la carpeta SCSS.
 - Se trabajó cada file para import, de manera independiente.
+- Se usó MIXIN para ordenar y optimizar el módulo de textos (párrafos 1 y 2) en HOME.
 - El archivo de hoja de estilo STYLE.CSS original (antes de aplicar sass) quedó como referencia en la carpeta ASSETS (ya no está vinculado).
 - Trabajé más fluidamente con GIT y GITHUB, aplicando add + commits + push, en esta entrega, aprendiendo mejor el uso en la práctica.
 - Incorporé GITIGNORE para anular la publicación de la carpeta de librería NODE_MODULES.
