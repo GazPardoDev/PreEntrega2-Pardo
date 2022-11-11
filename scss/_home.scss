@@ -1,30 +1,27 @@
-.parrafo1 {
+@mixin fontStyle($color, $font-size) {
     font-family: 'Poppins', sans-serif;
-    font-size: $titulo-grande;
-    font-weight: 100;
-    line-height: 26px;
-    color: $color-beige-terciario;
+    color: $color;
+    font-size: $font-size;
     text-align: center;
     margin: auto;
+    line-height: 30px;
+    font-weight: 300;
+    padding: 10px;
     width: 60%;
-    padding: 20px;
+}
+
+.parrafo1 {
+    @include fontStyle($color-azul-terciario, 22px)
+}
+
+.parrafo2 {
+    @include fontStyle($color-beige-primario, 18px)
 }
 
 @media (max-width: 600px){
     .parrafo1{
         width: 100%
     }
-}
-.parrafo2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: $titulo-grande;
-    font-weight: 200;
-    line-height: 25px;
-    font-style: italic;
-    color: $color-beige-primario;
-    text-align: center;
-    margin: auto;
-    width: 60%;
 }
 
 @media (max-width: 600px){
